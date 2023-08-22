@@ -1,0 +1,26 @@
+#blogName{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;        
+    font-size: 3.5rem;
+
+}
+header{
+    min-height: 20vh;   
+    display: flex;
+}
+#nav{
+    background-color: #be31ff;
+    width: 90vw;
+}
+#nav-container{
+    background: linear-gradient(to bottom, #be31ff 50%, transparent 50%);
+}
+.active{
+    background-color: white;
+    color: #be31ff;
+}
+.active:hover{
+    color: #be31ff;
+}
+.horizontal-line {
+    border-top: 1px solid #be31ff;
+}
